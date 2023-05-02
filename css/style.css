@@ -110,11 +110,6 @@ td + td > a > svg {
     top: 5px;
 }
 
-td > a:hover {
-    background-color: white;
-    box-shadow: 0px 0px 6px white;
-}
-
 td > a:hover > svg {
     filter:    drop-shadow(0px 0px 3px #fff);
 }
