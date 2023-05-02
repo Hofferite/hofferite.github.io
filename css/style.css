@@ -84,6 +84,45 @@ img {
     margin: 0 10px;
 }
 
+table {
+    margin: 0 auto;
+}
+
+td > a {
+    display: block;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: 0.2s all;
+    transform: scale(1.07);
+}
+
+td > a > svg {
+    fill: white;
+    position: relative;
+    top: 2px;
+    transition: 0.2s all;
+}
+
+td + td > a > svg {
+    fill: white;
+    position: relative;
+    top: 5px;
+}
+
+td > a:hover {
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 0px 0px 6px white;
+}
+
+td > a:hover > svg {
+    fill: black;
+}
+
 @media (max-width: 500px) {
     body {
         padding: 100px 0;
